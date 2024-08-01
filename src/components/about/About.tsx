@@ -2,7 +2,7 @@
 export function About(){
     return (
         <div className="grid grid-cols-12 gap-2 p-2 bg-primary">
-            <div className="col-span-4">
+            <div className="col-span-12 lg:col-span-4">
                 <p className="text-2xl font-bold text-contrast">Concerto</p>
                 <p className=" text-contrast">From the desk of Le Tien Dat</p>
                 <p className=" text-contrast">
@@ -10,8 +10,8 @@ export function About(){
                     (though I wish it was)
                 </p>
             </div>
-            <div className="col-span-4">
-                <p className="text-lg font-bold text-contrast">Connect with me</p>
+            <div className="col-span-12 lg:col-span-8">
+                <p className="text-lg font-bold text-contrast">Contacts</p>
                 <button className="text-contrast flex items-center justify-center hover:underline"
                         onClick={()=>{window.open("https://www.facebook.com/tiendat198", "_blank")}}>
                     <svg className="w-4 h-4 me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">

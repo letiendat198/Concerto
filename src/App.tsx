@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import Hero from './components/hero/Hero'
 import NavigationBar from './components/navigation_bar/NavigationBar'
 import { Banner } from './components/banner/Banner'
